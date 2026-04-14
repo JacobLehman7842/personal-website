@@ -277,6 +277,18 @@ nav {
   transition: color 0.2s;
 }
 .project-links a:hover { color: var(--accent); }
+.wip-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  background: var(--bg-alt);
+  border: 1.5px dashed var(--border);
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
 .project-award {
   display: inline-flex;
   align-items: center;
