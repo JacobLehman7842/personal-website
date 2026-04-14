@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jacob Lehman — Data Science & ML</title>
+  <meta name="description" content="Jacob Lehman — student passionate about data science and machine learning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Nav ──────────────────────────────────────────────── -->
+  <nav>
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">Jacob <span>Lehman</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-tag">Open to opportunities</div>
+      <h1>Hi, I'm <span>Jacob Lehman</span></h1>
+      <p class="hero-sub">
+        A student passionate about data science and machine learning —
+        building projects that turn data into insight.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <!-- folder icon -->
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          View Projects
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <!-- mail icon -->
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ────────────────────────────────────────────── -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label">About</p>
+      <h2 class="section-title">A little about me</h2>
+      <div class="about-grid">
+        <div class="about-aside">
+          <div class="about-avatar" aria-hidden="true">👤</div>
+          <div class="about-links">
+            <a href="https://github.com/JacobLehman7842" target="_blank" rel="noopener">
+              <!-- github icon -->
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/jacob-lehman-81501a362" target="_blank" rel="noopener">
+              <!-- linkedin icon -->
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:Jale6271@colorado.edu">
+              <!-- mail icon -->
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+        <div class="about-body">
+          <p>
+            I'm a student at the University of Colorado Boulder pursuing dual B.A. degrees in
+            Computer Science and Mathematics, expected to graduate in May 2027. I've been on the
+            Dean's List in Fall 2023 and Spring 2025.
+          </p>
+          <p>
+            My focus is on machine learning and data analysis. Most recently, I built a multiple linear
+            regression model on housing data from Cook County, Illinois to predict sale prices and analyze
+            bias between assessed and actual market values. The project involved one-hot encoding, feature
+            selection, and model evaluation using Python and standard data science libraries.
+          </p>
+          <p>
+            I work well both independently and in teams. I've led a group of five students to build a
+            full-stack web application from scratch, and I carry the same collaborative mindset into
+            everything I work on.
+          </p>
+          <p>
+            I'm actively developing my skills in deep learning and neural networks, and I'm looking for
+            opportunities where I can apply data-driven thinking to real problems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Skills ───────────────────────────────────────────── -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">Skills</p>
+      <h2 class="section-title">Tools & Technologies</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Java</span>
+            <span class="tag">C/C++</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Scala</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Data Science</h3>
+          <div class="skill-tags">
+            <span class="tag">NumPy</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Seaborn</span>
+            <span class="tag">Scikit-learn</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Machine Learning</h3>
+          <div class="skill-tags">
+            <span class="tag">Scikit-learn</span>
+            <span class="tag learning">TensorFlow ✦</span>
+            <span class="tag learning">PyTorch ✦</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Web & Frameworks</h3>
+          <div class="skill-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span class="tag">Jupyter</span>
+            <span class="tag">Git</span>
+            <span class="tag">Docker</span>
+            <span class="tag">VS Code</span>
+          </div>
+        </div>
+
+      </div>
+      <p style="margin-top:1rem; font-size:0.8rem; color:var(--text-muted);">✦ Currently learning</p>
+    </div>
+  </section>
+
+  <!-- ── Projects ─────────────────────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">Projects</p>
+      <h2 class="section-title">Things I've built</h2>
+
+      <!-- ─── Project card template (duplicate to add more) ──────
+      <div class="project-card">
+        <div class="project-card-header">
+          <h3>Project Name</h3>
+          <div class="project-links">
+            <a href="https://github.com/JacobLehman7842/REPO" target="_blank" rel="noopener" title="GitHub">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <p>A short description of what the project does and what problem it solves.</p>
+        <div class="project-stack">
+          <span class="tag">Python</span>
+          <span class="tag">Pandas</span>
+        </div>
+      </div>
+      ──────────────────────────────────────────────────────────── -->
+
+      <p class="projects-category">Data Science &amp; ML</p>
+      <div class="projects-grid">
+        <div class="project-card placeholder">
+          <p>Data science projects coming soon.</p>
+        </div>
+      </div>
+
+      <p class="projects-category" style="margin-top:2.5rem;">Hackathon Projects</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <h3>TailorIQ</h3>
+            <div class="project-links">
+              <a href="https://tailoriq.onrender.com/" target="_blank" rel="noopener" title="Live App">
+                <!-- external link icon -->
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+              <a href="https://github.com/JacobLehman7842" target="_blank" rel="noopener" title="GitHub">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-award">Selected for CU Boulder Atlas Expo</div>
+          <p>
+            An AI-powered resume builder that generates ATS-optimized resumes tailored to specific
+            job descriptions. Built with a multi-step questionnaire, multiple resume templates, Google
+            authentication, and PDF export.
+          </p>
+          <div class="project-stack">
+            <span class="tag">React</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">OpenAI</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">Tailwind CSS</span>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="projects-category" style="margin-top:2.5rem;">Coursework Projects</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <h3>Cook County Housing Price Prediction</h3>
+          </div>
+          <p>
+            Built a multiple linear regression model on 200,000+ Cook County property records to
+            predict sale prices. Analyzed bias between assessed and actual market values, exploring
+            fairness implications in property taxation. Involved EDA, one-hot encoding, feature
+            selection, and model evaluation.
+          </p>
+          <div class="project-stack">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Seaborn</span>
+            <span class="tag">Plotly</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <h3>Bounty Board</h3>
+          </div>
+          <p>
+            Led a 6-person team to design and build a full-stack task marketplace connecting users
+            with service providers for chores and errands. Implemented user authentication,
+            category-based filtering, and payment integration. Deployed to Render via Docker with
+            242+ commits across the team.
+          </p>
+          <div class="project-stack">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Docker</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <h3>Mancala AI</h3>
+          </div>
+          <p>
+            Implemented a game-playing AI for Mancala using the alpha-beta pruning algorithm to
+            optimize move selection. Conducted performance analysis comparing the alpha-beta AI
+            against a random move bot to measure the effectiveness of the search strategy.
+          </p>
+          <div class="project-stack">
+            <span class="tag">Python</span>
+            <span class="tag">Alpha-Beta Pruning</span>
+            <span class="tag">AI</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <h3>OOP Chess</h3>
+            <div class="project-links">
+              <a href="https://github.com/JacobLehman7842" target="_blank" rel="noopener" title="GitHub">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <p>
+            A fully playable two-player chess game built with JavaFX. Enforces legal moves for all
+            pieces, detects check, checkmate, and stalemate. Built with four design patterns: Strategy
+            for piece movement, Observer for game events, Singleton for the event bus, and Factory
+            for piece creation.
+          </p>
+          <div class="project-stack">
+            <span class="tag">Java</span>
+            <span class="tag">JavaFX</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Design Patterns</span>
+            <span class="tag">JUnit</span>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="projects-category" style="margin-top:2.5rem;">Personal Projects</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <h3>Web Vulnerability Scanner</h3>
+          </div>
+          <p>
+            Built a web vulnerability scanner that identifies security misconfigurations and exposed
+            sensitive files. Features security header analysis (X-Frame-Options, HSTS, CSP) with
+            color-coded severity classification, sensitive file detection (.git, .env, database
+            backups), and a GUI with ethical authorization prompts.
+          </p>
+          <div class="project-stack">
+            <span class="tag">Python</span>
+            <span class="tag">CustomTkinter</span>
+            <span class="tag">Security</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <h3>Raspberry Pi Wi-Fi Extender</h3>
+          </div>
+          <p>
+            Configured a Raspberry Pi as a Wi-Fi extender with its own access point, DHCP server,
+            and NAT-based traffic forwarding. Implemented stateful firewall rules, automatic switching
+            between Ethernet and Wi-Fi upstream connections, and routing that survives reboots and
+            cable disconnects.
+          </p>
+          <div class="project-stack">
+            <span class="tag">Linux</span>
+            <span class="tag">iptables</span>
+            <span class="tag">Networking</span>
+            <span class="tag">Raspberry Pi</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ───────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Contact</p>
+      <h2 class="section-title">Let's connect</h2>
+      <div class="contact-inner">
+        <p>
+          I'm actively looking for internship and entry-level data science or ML roles.
+          If you have an opportunity or just want to chat about data, feel free to reach out.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:Jale6271@colorado.edu" class="btn btn-primary">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Email Me
+          </a>
+          <a href="https://www.linkedin.com/in/jacob-lehman-81501a362" target="_blank" rel="noopener" class="btn btn-outline">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/JacobLehman7842" target="_blank" rel="noopener" class="btn btn-outline">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Jacob Lehman. Built with HTML, CSS & JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
